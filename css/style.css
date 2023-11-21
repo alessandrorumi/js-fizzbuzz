@@ -16,8 +16,11 @@
 }
 
 .square {
-  border: 1px solid black;
   width: calc((100% / 7) - 2rem);
   margin: 1rem;
   height: 125px;
+  background-color: #1389b2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
